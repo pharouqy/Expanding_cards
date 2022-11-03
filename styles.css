@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&family=Montserrat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.switch {
+  position: relative;
+  width: 8%;
+  overflow: hidden;
+}
+
+.switch.active {
+  width: 370px;
+  transition: width 0.2s ease-in-out;
+}
+
+.switch img {
+  object-fit: cover;
+  height: 550px;
+  border-radius: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.switch h3 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #fff;
+  text-shadow: 3px 2px black;
+}
