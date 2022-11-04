@@ -21,11 +21,11 @@
   width: 8%;
   overflow: hidden;
   cursor: pointer;
+  transition: width 0.8s ease-in;
 }
 
 .switch.active {
   width: 370px;
-  transition: width 0.8s ease-in;
 }
 
 .switch img {
